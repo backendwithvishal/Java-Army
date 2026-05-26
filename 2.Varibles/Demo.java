@@ -1,7 +1,10 @@
 public class Demo {
     public static void main(String[] args) {
         // Intergers --> bytes, short, int, long
-        byte b = 6;
+        // byte b = 6; // Normal Decimal number
+        // byte b = 0b101; // Binary 
+        // byte b = 07; // 0 - 7 --> Octal
+        byte b = 0XA; // 0 - 7 --> Hexadecimal (0 - 15) --> 0-9 , 10-A, 11-B, 12-C, 13-D, 14-E, 14-F 
         short s = 70;
         int i = 6000;
         long l = 200000;
