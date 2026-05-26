@@ -10,8 +10,16 @@ public class Demo {
         float f = 45.89f;
         double d = 10.4556;
 
+        // charcters
+        char c = 'a'; // 'a' --> interger --> binary --> store
+
+        // boolean
+        boolean bool = false;
+
         System.out.println( "Interger values --> "+ b + " , "+ s + " , " + i + " , "+ l );
-        System.out.println( "Interger values --> "+ f + " , "+ d );
+        System.out.println( "Floating values --> "+ f + " , "+ d );
+        System.out.println( "Characeter values --> "+ c  );
+        System.out.println( "Boolean values --> "+ bool );
 
     }
 }
