@@ -10,8 +10,9 @@ public class Demo {
         long l = 200000;
 
         // Real numbers --> float double
-        float f = 45.89f;
-        double d = 10.4556;
+        float f = 45.89f;  // Single percision
+        // double d = 10.4556; // double percision --> standard way
+        double d = 6.022e23; // 6.022 * 10^23
 
         // charcters
         char c = 'a'; // 'a' --> interger --> binary --> store
