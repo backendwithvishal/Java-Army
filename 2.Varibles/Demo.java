@@ -6,7 +6,12 @@ public class Demo {
         int i = 6000;
         long l = 200000;
 
-        System.out.println( "Interger values -->"+ b + " , "+ s + " , " + i + " , "+ l );
+        // Real numbers --> float double
+        float f = 45.89f;
+        double d = 10.4556;
+
+        System.out.println( "Interger values --> "+ b + " , "+ s + " , " + i + " , "+ l );
+        System.out.println( "Interger values --> "+ f + " , "+ d );
 
     }
 }
