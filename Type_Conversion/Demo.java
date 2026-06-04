@@ -24,11 +24,11 @@ public class Demo {
         // System.out.println(b); // 300 % 244 = 44
 
         // 3.Truncating Conversion 
-        float f = 19.567f;
-        int i;
+        // float f = 19.567f;
+        // int i;
 
-        i = (int) f ;
-        System.out.println(i); //19
+        // i = (int) f ;
+        // System.out.println(i); //19
 
         // 4.Boolean to any data type
         // These conversions are not possible
@@ -38,7 +38,9 @@ public class Demo {
 
         // i = bool;
 
-        
+        byte b = 50;
+        b = (byte) (b * 2); // 100
 
+        System.out.println(b);
     }
 }
