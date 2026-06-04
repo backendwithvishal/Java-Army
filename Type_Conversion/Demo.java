@@ -30,5 +30,15 @@ public class Demo {
         i = (int) f ;
         System.out.println(i); //19
 
+        // 4.Boolean to any data type
+        // These conversions are not possible
+
+        // boolean tool = false;
+        //  int i;
+
+        // i = bool;
+
+        
+
     }
 }
