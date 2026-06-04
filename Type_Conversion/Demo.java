@@ -17,10 +17,18 @@ public class Demo {
         // System.out.println(i); // 115
 
         // Explicit conversion
-        int i = 300;
-        byte b; //-128 to 128
+        // int i = 300;
+        // byte b; //-128 to 128
 
-        b = (byte) i;
-        System.out.println(b); // 300 % 244 = 44
+        // b = (byte) i;
+        // System.out.println(b); // 300 % 244 = 44
+
+        // Truncating Conversion 
+        float f = 19.567f;
+        int i;
+
+        i = (int) f ;
+        System.out.println(i); //19
+
     }
 }
