@@ -1,6 +1,6 @@
 public class Demo {
     public static void main(String[] args) {
-        // Implicit conversion
+        // 1.Implicit conversion
         // (byte to int)
         // byte b = 56;
         // int i;
@@ -16,14 +16,14 @@ public class Demo {
 
         // System.out.println(i); // 115
 
-        // Explicit conversion
+        // 2.Explicit conversion
         // int i = 300;
         // byte b; //-128 to 128
 
         // b = (byte) i;
         // System.out.println(b); // 300 % 244 = 44
 
-        // Truncating Conversion 
+        // 3.Truncating Conversion 
         float f = 19.567f;
         int i;
 
