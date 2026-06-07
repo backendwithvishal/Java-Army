@@ -1,4 +1,4 @@
-public class Demo4 {
+public class Demo3 {
        public static void main(String[] args) {
        // Bitwise operations
        int a = 2; // 10 --> 00000000 00000000 00000000 00000010
