@@ -1,9 +1,15 @@
+
 public class Demo {
     public static void main(String[] args) {
         boolean b = true;
         int i = 5;
         // Selection statements
         // Normal if 
+        // if (i > 5) {
+        //     System.out.println("The number is greater than 5.");
+        // }
+        
+        // if else 
         // if (i > 5 && i < 10) {
         //     System.err.println("i is greater then5");
         // } else {
