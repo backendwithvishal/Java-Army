@@ -1,5 +1,6 @@
 
 public class Demo {
+
     public static void main(String[] args) {
         boolean b = true;
         int i = 5;
@@ -8,14 +9,13 @@ public class Demo {
         // if (i > 5) {
         //     System.out.println("The number is greater than 5.");
         // }
-        
+
         // if else 
         // if (i > 5 && i < 10) {
         //     System.err.println("i is greater then5");
         // } else {
         //     System.out.println("i is less then or equal to 5");
         // }
-
         if (i % 2 == 0) {
             if (i > 5 && i < 10) {
                 System.err.println("i is odd");
@@ -25,5 +25,16 @@ public class Demo {
         }
 
         // nested if
+        // i = 8
+        // if(i > 5) {
+        //     if( i < 10) {
+        //         if(i == 7) {
+        //         }
+        //     }
+        //     else {
+        //     }
+        // }
+        // else {
+        // }
     }
 }
