@@ -17,5 +17,7 @@ public class Demo {
         } else {
             System.out.println("i is even");
         }
+
+        // nested if
     }
 }
