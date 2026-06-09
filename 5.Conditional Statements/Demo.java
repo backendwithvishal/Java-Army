@@ -45,7 +45,7 @@ public class Demo {
         // if-else-if ladder
         // boolean b = true;
         // int i = 7;
-        // // if-else-if ladder
+        
         // if(i == 5) {
         //     System.out.println("i is 5");
         // }
@@ -62,6 +62,22 @@ public class Demo {
         //     System.out.println("i is 9");
         // }
 
-        
+        int age = 50;
+
+        if(age > 80){
+            System.err.println("Yoy are very old");
+        }
+        if(age > 60){
+            System.err.println("Yoy are old");
+        }
+        if(age > 40){
+            System.err.println("Yoy are becoming old");
+        }
+        if(age > 20){
+            System.err.println("Yoy are young");
+        }
+        else{
+            System.err.println("Yoy are a child");
+        }
     }
 }
