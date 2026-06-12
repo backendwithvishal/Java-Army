@@ -43,9 +43,7 @@ public class Demo2 {
                 }
             default:
                 System.out.println("j is not 4 && 5");
-                break;
-
+                break;  
         }
-
     }
 }
