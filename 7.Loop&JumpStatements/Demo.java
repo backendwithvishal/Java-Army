@@ -42,10 +42,16 @@ public class Demo {
 
         // Integers -> byte, short, int, long
 
-        for (int v = 1; v <= 10; v++) {
-            System.out.println(v);
-        }
+        // for (int v = 1; v <= 10; v++) {
+        //     System.out.println(v);
+        // }
 
+        // Nested Loops
+        for(int v = 1; v <= 5; v++) {
+            for(int s=1; s<= 5; s++) {
+
+            }
+        }
         /* 
         FLow of control of for
          1. First assignment statement is executed (Variable definition).
