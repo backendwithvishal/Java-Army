@@ -17,9 +17,9 @@ public class Demo {
         // } while(v <= 10);
 
         // For Loop
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(i);
-        }
+        // for (int i = 1; i <= 10; i++) {
+        //     System.out.println(i);
+        // }
 
         // infinite for loop
         // for(int i = 1; i <= 10;) {
@@ -29,10 +29,15 @@ public class Demo {
         // for(int i = 1; ; i++) {
         //     System.out.println("Hello");
         // }
-        
+
         // int v = 1
         // for(; ; ) {
         //     System.out.println("Hello");
+        // }
+
+        // Comma seprated variation
+        // for(int i = 1, j = 1; i <= 10 && j <= 5; i++, j+=2) {
+        //     System.out.println(i * j);
         // }
 
         /* 
