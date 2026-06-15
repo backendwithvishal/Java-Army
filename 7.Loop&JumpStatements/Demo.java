@@ -40,6 +40,12 @@ public class Demo {
         //     System.out.println(i * j);
         // }
 
+        // Integers -> byte, short, int, long
+
+        for (int v = 1; v <= 10; v++) {
+            System.out.println(v);
+        }
+
         /* 
         FLow of control of for
          1. First assignment statement is executed (Variable definition).
