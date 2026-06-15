@@ -21,6 +21,15 @@ public class Demo {
             System.out.println(i);
         }
 
+        // infinite for loop
+        // for(int i = 1; i <= 10;) {
+        //     System.out.println("Hello");
+        // }
+
+        // for(int i = 1; ; i++) {
+        //     System.out.println("Hello");
+        // }
+
         /* 
         FLow of control of for
          1. First assignment statement is executed (Variable definition).
