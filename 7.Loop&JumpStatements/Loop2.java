@@ -11,7 +11,15 @@ public class Loop2 {
         //Jump Statement in Java
         // break,, continue,, return
 
-        
+        // boolean b = false;
+
+        // for(int i = 1; i <= 10; i++) {
+        //     System.out.println(i);
+
+        //     if(b == true) {
+        //         break;
+        //     }
+        // }
     }
 }
 
