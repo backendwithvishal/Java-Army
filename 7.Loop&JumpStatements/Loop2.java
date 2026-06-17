@@ -43,5 +43,53 @@ public class Loop2 {
         //     }
         //     System.out.println(v);
         // }
+
+        // Break in nested loops
+        // for(int i = 1; i<= 10; i++) {
+        //    for(int j = 1; j <= i; j++) {
+        //         System.out.print("* ");
+
+        //         if(j >= 5) {
+        //             continue;
+        //         }
+        //    }
+
+        //    System.out.println();
+        // }
+
+        // Labels
+        outer: for(int i = 1; i<= 10; i++) {
+           inner: for(int j = 1; j <= i; j++) {
+                System.out.print("* ");
+
+                if(j >= 5) {
+                    break outer;
+                }
+           }
+
+        //    System.out.println();
+        // }
+
+
+        /*
+        *
+        * *
+        * * *
+        * * * *
+        * * * * *
+        
+        */
+
+        // Code blocks
+        // first: {
+        //     second: {
+        //         third: {
+        //             System.out.println("Hello");
+        //             break first;
+        //         }
+        //     }
+        // }
+
+        
     }
 }
