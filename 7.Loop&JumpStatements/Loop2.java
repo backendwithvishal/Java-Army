@@ -37,11 +37,11 @@ public class Loop2 {
         //     System.out.println("Prime number");
         // }
 
-        for(int v = 1; v <= 10; v++) {
-            if (v % 2 == 0) {
-                continue;
-            }
-            System.out.println(v);
-        }
+        // for(int v = 1; v <= 10; v++) {
+        //     if (v % 2 == 0) {
+        //         continue;
+        //     }
+        //     System.out.println(v);
+        // }
     }
 }
