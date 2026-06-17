@@ -23,19 +23,25 @@ public class Loop2 {
 
         // Whether the number is prime or not using break statement
         
-        int p = 6;
+        // int p = 6;
 
-        int v;
-        for( v = 2; v < p; v++) {
-            if (p % v == 0) {
-                System.out.println("Not a Prime");
-                break;
+        // int v;
+        // for( v = 2; v < p; v++) {
+        //     if (p % v == 0) {
+        //         System.out.println("Not a Prime");
+        //         break;
+        //     }
+        // }
+
+        // if(v == p) {
+        //     System.out.println("Prime number");
+        // }
+
+        for(int v = 1; v <= 10; v++) {
+            if (v % 2 == 0) {
+                continue;
             }
-        }
-
-        if(v == p) {
-            System.out.println("Prime number");
+            System.out.println(v);
         }
     }
 }
-
