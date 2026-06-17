@@ -27,13 +27,13 @@ public class Loop2 {
 
         int v;
         for( v = 2; v < p; v++) {
-            if (n % v == 0) {
+            if (p % v == 0) {
                 System.out.println("Not a Prime");
                 break;
             }
         }
 
-        if(i == p) {
+        if(v == p) {
             System.out.println("Prime number");
         }
     }
