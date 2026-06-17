@@ -18,8 +18,24 @@ public class Loop2 {
 
         //     if(b == true) {
         //         break;
-        //     }
         // }
+        // }
+
+        // Whether the number is prime or not using break statement
+        
+        int p = 6;
+
+        int v;
+        for( v = 2; v < p; v++) {
+            if (n % v == 0) {
+                System.out.println("Not a Prime");
+                break;
+            }
+        }
+
+        if(i == p) {
+            System.out.println("Prime number");
+        }
     }
 }
 
