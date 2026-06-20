@@ -53,7 +53,7 @@ public class Array1 {
         //     System.out.println();
         // }
 
-                // 1-D array
+        // 1-D array
         // int[] rollNums = {101, 102, 103};
 
         // for(int i=0; i<rollNums.length; i++) {
