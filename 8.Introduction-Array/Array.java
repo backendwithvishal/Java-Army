@@ -14,13 +14,13 @@ public class Array{
         // System.out.println(rollNo.length);
 
         int v = 101;
-        for(int i = 0; i < rollNo.length; i++){
-            rollNo[i] = v;
+        for(int s = 0; s < rollNo.length; s++){
+            rollNo[s] = v;
             v++;
         }
 
-        for(int i = 0; i < rollNo.length; i++){
-            System.out.println(rollNo[i]);
+        for(int s = 0; s < rollNo.length; s++){
+            System.out.println(rollNo[s]);
         }
     }
 }
