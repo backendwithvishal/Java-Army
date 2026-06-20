@@ -45,7 +45,6 @@ public class Array1 {
         //     [12] [78] [45]
         // */
 
-
         // for(int row = 0; row < marks.length; row++) {
         //     for(int col = 0; col < marks[row].length; col++) {
         //         System.out.print(marks[row][col] + " ");
