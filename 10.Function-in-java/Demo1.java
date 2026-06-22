@@ -3,21 +3,21 @@ public class Demo1 {
         // Function Overloading
         // Same name , Different parameters
 
-        System.out.println(sum(1,2));
+        System.out.println(sum(1,2)); // 2 parameters
 
-        System.out.println(sum(1,2,3));
+        System.out.println(sum(1,2,3)); // 3 parameters
 
-        System.out.println(sum(1.0,2.0));
+        System.out.println(sum(1.0,2.0)); // 2 parameters , different data type
 
-        name();
+        name(); // No parameters
 
-        name("Vishal");
+        name("Vishal"); // 1 parameter
 
-        name("Vishal", 21);
+        name("Vishal", 21); // 2 parameters
 
-        name("Vishal", 21, "Thane");
+        name("Vishal", 21, "Thane"); // 3 parameters
 
-        name("Vishal", 21, "Thane", "Maharashtra");
+        name("Vishal", 21, "Thane", "Maharashtra"); // 4 parameters
     }
 
     static int sum(int a, int b) {
@@ -33,19 +33,19 @@ public class Demo1 {
     }
     
     static void name() {
-        System.out.println("Hello World");
+        System.out.println("Hello World"); // No parameters
     }
     
     static void name(String name) {
-        System.out.println("Hello " + name);
+        System.out.println("Hello " + name); // 1 parameter
     }
     
     static void name(String name, int age) {
-        System.out.println("Hello " + name + ", you are " + age + " years old");
+        System.out.println("Hello " + name + ", you are " + age + " years old"); // 2 parameters
     }
 
     static void name(String name, int age, String city) {
-        System.out.println("Hello " + name + ", you are " + age + " years old and live in " + city);
+        System.out.println("Hello " + name + ", you are " + age + " years old and live in " + city); // 3 parameters
     }
 
     static void name(String name, int age, String city, String state) {
