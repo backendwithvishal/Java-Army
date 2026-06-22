@@ -7,10 +7,10 @@ public class Demo {
         SayHello("Vishal"); // Arguments
 
         System.out.println(Sum()); // Return Value
-        
+
         System.out.println(Sum(10, 20)); // Arguments & Return Value
 
-        return(); //option
+        return ; //option
     }
 
     // No input , No output
