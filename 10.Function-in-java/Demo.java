@@ -2,6 +2,7 @@ public class Demo {
     public static void main(String[] args) {
         // Function in java
 
+        SayHello("Vishal");
     }
 
     // No input , No output
