@@ -13,11 +13,11 @@ public class Demo1 {
 
         name("Vishal");
 
-        name("Vishal", 22);
+        name("Vishal", 21);
 
-        name("Vishal", 22, "Thane");
+        name("Vishal", 21, "Thane");
 
-        name("Vishal", 22, "Thane", "Maharashtra");
+        name("Vishal", 21, "Thane", "Maharashtra");
     }
 
     static int sum(int a, int b) {
