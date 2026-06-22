@@ -2,7 +2,10 @@ public class Demo {
     public static void main(String[] args) {
         // Function in java
 
+        greet();
         SayHello("Vishal");
+        System.out.println(Sum());
+        System.out.println(Sum(10, 20));
     }
 
     // No input , No output
