@@ -8,10 +8,12 @@ public class Demo2 {
     }
 
     static void fun1() {
+        fun2();
         System.out.println("Hiiii"); // 1st
     }
 
     static void fun2() {
+        fun3();
         System.out.println("Heello"); // 2nd
     }
 
