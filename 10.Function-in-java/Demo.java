@@ -3,9 +3,14 @@ public class Demo {
         // Function in java
 
         greet();
-        SayHello("Vishal");
-        System.out.println(Sum());
-        System.out.println(Sum(10, 20));
+
+        SayHello("Vishal"); // Arguments
+
+        System.out.println(Sum()); // Return Value
+        
+        System.out.println(Sum(10, 20)); // Arguments & Return Value
+
+        return(); //option
     }
 
     // No input , No output
