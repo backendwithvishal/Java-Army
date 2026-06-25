@@ -8,7 +8,6 @@ public class Demo {
         s1.rollNumber = 1;
         s1.college = "Sahyog College";
 
-
         s2.name = "Shravani"; // Assigning values to the attributes of s2 object
         s2.age = 19;
         s2.rollNumber = 2;
