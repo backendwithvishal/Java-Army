@@ -1,8 +1,10 @@
 public class Demo {
     public static void main(String[] args) {
-        Student s1 = new Student(); // Creating object of class Student
-        Student s2 = new Student(); // Creating object of class Student
 
+        Demo demo = new Demo();
+        Student s1 = demo.new Student();
+        Student s2 = demo.new Student();
+        
         s1.name = "Vishal"; // Assigning values to the attributes of s1 object
         s1.age = 20;
         s1.rollNumber = 1;
