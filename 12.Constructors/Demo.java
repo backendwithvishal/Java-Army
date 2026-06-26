@@ -29,4 +29,8 @@ class Student {
     String name;
     int rollNo;
     double cgpa;
+
+    void markAttendence() {
+        System.out.println(name + " marked attendence");
+    }
 }
