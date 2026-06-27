@@ -13,7 +13,10 @@ class Student {
     int rollNo;
     double cgpa;
 
-    // 
+    // default constructor
+    Student() {
+        System.out.println("constructor is called");
+    }
 
     void markAttendence() {
         System.out.println(name + "marked attendence");
