@@ -18,6 +18,12 @@ class Student {
         System.out.println("constructor is called");
     }
 
+    // Parameterized constructor
+    Student(String name, int rollNo, double cgpa) {
+        this.name = name;
+        this.rollNo = rollNo;
+        this.cgpa = cgpa;
+    }
     void markAttendence() {
         System.out.println(name + "marked attendence");
     }
