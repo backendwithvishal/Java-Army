@@ -25,7 +25,6 @@ class Student {
     // Parameterized constructor with one parameterized this Keyword
     Student(String name) {
         this(name);
-        
     }
 
     // Two Parameterized constructor with two parameterized this Keyword
@@ -45,8 +44,6 @@ class Student {
         this.cgpa = cgpa;
     }
     
-
-
     void markAttendence() {
         System.out.println(name + "marked attendence");
     }
