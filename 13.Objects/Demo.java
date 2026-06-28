@@ -2,18 +2,19 @@
 
 public class Demo{
     public static void main(String[]args){
-        int x = 10;
-        int y = 20;
+        int x = 4;
+        int y = 5;
 
-        System.out.println("Before calling swap() method, x = " + x + ", y = " + y);
+        System.out.println( x + " , " + y);
 
-        addTen(x,y);
+        addTen(x, y);
         
-        System.out.println("After calling swap() method, x = " + x + ", y = " + y);
+        System.out.println( x + " , " + y);
+    
     }
     
     static void addTen(int x, int y){
-        x += 10;
-        y += 10;
+        x = x + 10;
+        y = y + 10;
     }
 }
