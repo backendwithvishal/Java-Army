@@ -1,4 +1,4 @@
-package collage.student;
+package collage;
 
 public class Student {
     public void print() {
