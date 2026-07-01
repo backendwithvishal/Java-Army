@@ -1,7 +1,7 @@
 package school;
 
 public class Student {
-    void print(){
+    public void print(){
         System.out.println("School Student");
     }
 }

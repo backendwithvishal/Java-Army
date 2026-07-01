@@ -1,7 +1,7 @@
-package collage;
+package collage.student;
 
 public class Student {
-    void print() {
+    public void print() {
         System.out.println("Collage Student");
     }
 }
