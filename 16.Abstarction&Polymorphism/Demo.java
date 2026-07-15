@@ -1,19 +1,42 @@
 public class Demo{
     public static void main (String[] args) {
-        System.out.println();
+        Car car = new FuleCar();
+        car.start();
+        car.accelearte();
+        car.brake();
     }
 }
 
-class Car {
+abstract class Car {
     void start(){
         System.outt.println("Car Started")
     }
+
+abstract void accelerate();
+
+abstract void break();
+
 }
 
-void accelerate(){
-    System.outt.println("Car is accelarting at 60km/h")
+class FuleCar extends Car {
+    @Override
+    void accelerate() {
+        System.out.println("Fule car is Accelerate")
+    }
+    
+    void break(){
+        System.out.println("Fule car is stopping")
+
+    }
 }
 
-void break(){
-    System.outt.println("Car Stoped")
+class ElectricCar extends Car {
+    @Override
+    void accelerate() {
+        System.out.println("Electric car is Accelerate")
+    }
+    
+    void break(){
+        System.out.println("Electric car is stopping")
+    }
 }
