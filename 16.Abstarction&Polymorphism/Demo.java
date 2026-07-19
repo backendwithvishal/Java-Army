@@ -9,7 +9,7 @@ public class Demo{
 
 abstract class Car {
     void start(){
-        System.outt.println("Car Started")
+        System.out.println("Car Started")
     }
 
 abstract void accelerate();
