@@ -11,6 +11,8 @@ public class Demo2 {
 // Private methods can't be overriden
 // final method cannot be overriden
 
+// final --> class ??? --> you cannot create child of that class
+
 // Fields Variable they cannot be polymorphic
 
 // class A {
