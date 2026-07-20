@@ -1,7 +1,7 @@
 public class Demo1 {
     public static void main(String[] args) {
 
-        Car car = new FuelCar();
+        Car car = new ElectricCar();
 
         car.start();
         car.accelerate();
