@@ -25,11 +25,16 @@ public class Demo1{
         // int x = 50;
         // printInteger(x); // auto boxing
 
-        Integer a = 10; 
-        Integer b = 20; // auto boxing
+        // Integer a = 10; 
+        // Integer b = 20; // auto boxing
 
-        int sum = a.intValue() + b.intValue(); // unboxing
-        System.out.println(sum);  // auto boxing
+        // int sum = a.intValue() + b.intValue(); // unboxing
+        // System.out.println(sum);  // auto boxing
+
+        Integer x = null; // null is an object
+        int y = x; // NPE occurs here 
+
+        System.out.println(y);
     }
 
     static void printInteger(Integer x) {
