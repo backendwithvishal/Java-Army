@@ -9,6 +9,5 @@ public class Demo2 {
         Integer b = 200;
 
         System.out.println(a == b);
-
     }
 }
