@@ -27,7 +27,6 @@ public class Demo2 {
 //     final void fun3(){
 //         System.out.println("Bye");
 //     }
-
 // }
 
 // class B extends A {
