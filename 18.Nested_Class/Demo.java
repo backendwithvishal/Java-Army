@@ -19,12 +19,12 @@ class Outer {
         String name;
         static int number;
         
-
         Inner(Outer outer) {
             this.outer = outer;
         }
 
-        void fun(Outer outer){
+
+        void fun(Outer outer) {
             System.out.println(x);
             System.out.println(outer.y);
         }
