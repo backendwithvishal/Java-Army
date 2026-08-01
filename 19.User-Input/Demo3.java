@@ -9,3 +9,13 @@ public class Demo3{
         System.out.println(name);
     }
 }
+
+/*
+1. Vishal -> i/p
+2. OS Buffer (86, 105, 115,104, 97, 108)
+3. System.in (InputStream) recieves bytes from OS Buffer.
+4. InputStreamReader --> stream of bytes into stream of characters.
+    ('V','i','s','h','a','l','\n')
+5. BufferReader --> readLine --> Vishal --> name
+6. Vishal -> o/p
+*/
