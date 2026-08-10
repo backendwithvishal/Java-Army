@@ -2,11 +2,15 @@ public class Demo {
     public static void main (String []args) {
         Student s1 = new Student(21, "Vishal");
 
-        System.out.println(s1.getAge());
-        System.out.println(s1.getName());
+        // System.out.println(s1.getAge());
+        // System.out.println(s1.getName());
+
+        College college = new College("IIT M", "Mumbai");
+        System.out.println(college.name);
     }
 }
 
+// Immutable class
 class Student {
     private final int age;
     private final String name;
@@ -25,6 +29,7 @@ class Student {
     }
 }
 
+// Mutable class
 class College {
     String name;
     String address;
