@@ -1,6 +1,6 @@
-public class Demo {
-    public static void main(String[] args) {
-
+public class Demo2 {
+    public static void main(String []args){
+        
         College college = new College("IIT M", "Mumbai");
 
         Student s1 = new Student(21, "Vishal", college);
@@ -10,10 +10,11 @@ public class Demo {
         s1.getCollege().name = "IIT G";
 
         System.out.println(s1.getCollege().name);
+
     }
 }
-
-// ( Not purely Immutable class)
+// Immutable
+// defensive copy of college (non primitive)
 class Student {
     private final int age;
     private final String name;
@@ -22,7 +23,7 @@ class Student {
     Student(int age, String name, College college) {
         this.age = age;
         this.name = name;
-        this.college = college;
+        this.college = new College(college.name, college.address);
     }
 
     public int getAge() {
@@ -34,7 +35,7 @@ class Student {
     }
 
     public College getCollege() {
-        return this.college;
+        return new College this.college.name, this.college.address;
     }
 }
 
